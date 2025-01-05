@@ -1,0 +1,145 @@
+[
+    {   
+        "id": 1, 
+        "name": "John Doe", 
+        "batch": "E20", 
+        "profileLink": "#", 
+        "score": 99 
+    },
+    { 
+        "id": 2, 
+        "name": "Jane Smith", 
+        "batch": "E20", 
+        "profileLink": "#", 
+        "score": 98 
+    },
+    { 
+        "id": 3, 
+        "name": "Sam Johnson", 
+        "batch": "E20", 
+        "profileLink": "#", 
+        "score": 88 
+    },
+    { 
+        "id": 4, 
+        "name": "Emily Davis", 
+        "batch": "E20", 
+        "profileLink": "#", 
+        "score": 92 
+    },
+    { 
+        "id": 5, 
+        "name": "Michael Brown", 
+        "batch": "E20", 
+        "profileLink": "#", 
+        "score": 80 
+    },
+    
+    { 
+        "id": 6, 
+        "name": "Sarah Miller", 
+        "batch": "E21", 
+        "profileLink": "#", 
+        "score": 5 
+    },
+    { 
+        "id": 7, 
+        "name": "David Wilson", 
+        "batch": "E21", 
+        "profileLink": "#", 
+        "score": 91 
+    },
+    { 
+        "id": 8, 
+        "name": "Jessica Lee", 
+        "batch": "E21", 
+        "profileLink": "#", 
+        "score": 89 
+    },
+    { 
+        "id": 9, 
+        "name": "Daniel Harris", 
+        "batch": "E21", 
+        "profileLink": "#", 
+        "score": 84 
+    },
+    { 
+        "id": 10, 
+        "name": "Anna Clark", 
+        "batch": "E21", 
+        "profileLink": "#", 
+        "score": 93 
+    },
+
+    { 
+        "id": 11, 
+        "name": "James Lewis", 
+        "batch": "E22", 
+        "profileLink": "#", 
+        "score": 90 
+    },
+    { 
+        "id": 12, 
+        "name": "Olivia Young", 
+        "batch": "E22", 
+        "profileLink": "#", 
+        "score": 88 
+    },
+    { 
+        "id": 13, 
+        "name": "William Walker", 
+        "batch": "E22", 
+        "profileLink": "#", 
+        "score": 82 
+    },
+    { 
+        "id": 14, 
+        "name": "Charlotte Allen", 
+        "batch": "E22", 
+        "profileLink": "#", 
+        "score": 85 
+    },
+    { 
+        "id": 15, 
+        "name": "Benjamin Scott", 
+        "batch": "E22", 
+        "profileLink": "#", 
+        "score": 91 
+    },
+
+    { 
+        "id": 16, 
+        "name": "Sophia King", 
+        "batch": "E23", 
+        "profileLink": "#", 
+        "score": 93 
+    },
+    { 
+        "id": 17, 
+        "name": "Liam Wright", 
+        "batch": "E23", 
+        "profileLink": "#", 
+        "score": 85 
+    },
+    { 
+        "id": 18, 
+        "name": "Mia Turner", 
+        "batch": "E23", 
+        "profileLink": "#", 
+        "score": 90 
+    },
+    { 
+        "id": 19, 
+        "name": "Ethan Moore", 
+        "batch": "E23", 
+        "profileLink": "#", 
+        "score": 84 
+    },
+    { 
+        "id": 20, 
+        "name": "Chloe Green", 
+        "batch": "E23", 
+        "profileLink": "#", 
+        "score": 92 
+    }
+]

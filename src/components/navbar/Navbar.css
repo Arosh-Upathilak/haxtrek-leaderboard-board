@@ -1,0 +1,78 @@
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100vh;
+  background-color: #ffffff;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.navbar_links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar_links ul li {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.navbar_links ul li::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  opacity: 0;
+  background-color: rgb(48, 48, 230);
+  transition: opacity 0.3s ease;
+}
+
+.navbar_links ul li .nav-active {
+  color: rgb(48, 48, 230);
+}
+
+.navbar_links ul li .nav-active + li::before,
+.navbar_links ul li:has(.nav-active)::before {
+  opacity: 1;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+  color: rgb(48, 48, 230);
+}
+
+.icon-link.nav-active {
+  color: rgb(48, 48, 230);
+}

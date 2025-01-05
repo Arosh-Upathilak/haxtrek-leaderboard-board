@@ -1,0 +1,225 @@
+body{
+    background: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 ;
+    padding: 0;
+}
+.leaderboard-content{
+    
+    padding: 20px;
+    min-height: 90vh;
+   
+}
+.leaderboard-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:100px;
+}
+.leaderboard-header-item{
+    display: flex;
+    align-items: center;
+
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 250px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding-left: 40px; 
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+  }
+  
+  .search-input:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+  }
+  
+
+
+.leaderboard-table-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: column;
+  width: 90%;
+  margin:0 100px 0 120px;
+  padding:0 20px;
+
+}
+
+
+
+.leaderboard-table-container h1{
+  color: black;
+  padding: 25px 0;
+}
+.leaderboard-table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.leaderboard-table thead{
+  background-color: blue;
+}
+.leaderboard-table thead tr th{
+  font-size: 20px;
+  font-weight: medium;
+  letter-spacing: 0.35px;
+  color: white;
+  opacity: 1;
+  padding: 12px;
+  vertical-align: top;
+  border: 1px solid black;
+}
+
+.leaderboard-table tbody tr td{
+  font-size: 14px;
+  font-weight: NORMAL;
+  letter-spacing: 0.35px;
+  color: black;
+  font-size: medium;
+  background-color: #f4f9ff;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid black;
+}
+.medal-rank-leaderboard{
+    top: 25%;
+    left: 50%;
+}
+
+.profile-button .btn{
+  width: 100px;
+  font-size: medium;
+  text-decoration: none;
+  line-height: 35px;
+  display: inline-block;
+  background-color: blue;
+  border-radius: 5px;
+  font-weight: medium;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  opacity: 1;
+  cursor: pointer;
+}
+.profile-button .btn:hover{
+  background-color: #0056b3;
+  color: white;
+}
+@media(max-width:768px){
+  .leaderboard-content{
+    margin-left:10px;
+  }
+  .leaderboard-table-container{
+    margin-left: 70px;
+  }
+  .leaderboard-table thead {
+      display: none;
+  }
+  
+  .leaderboard-table, .leaderboard-table tbody , .leaderboard-table tr, .leaderboard-table td{
+      display: block;
+      width: 100%;
+  }
+  .leaderboard-table tr{
+      margin-bottom: 15px;
+  }
+  .leaderboard-table tbody tr td{
+      text-align: right;
+      padding-left: 50%;
+      position: relative;
+  }
+  .leaderboard-table td::before{
+      content: attr(data-label);
+      position: absolute;
+      left:0;
+      padding-left:15px ;
+      font-weight: 600;
+      font-size: 14px;
+      text-align: left;
+  }
+  
+  .medal-rank-leaderboard{
+    top: 25%;
+    left: 60%;
+  }
+  .leaderboard-header{
+    margin-left: 90px;
+  }
+}
+
+
+
+@media screen and (max-width: 620px){
+  .leaderboard-header-item h2{
+      display: none;
+      
+  }
+}
+
+
+@media screen and (max-width: 1000px){
+  .leaderboard-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+  }
+}
+
+
+
+
+
+.leaderboard-graph {
+  position: relative;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  height: 600px;
+  margin:0 100px 0 120px;
+}
+
+.y-axis{
+  display: none;
+}
+
+.rank{
+  fill: black;
+  font-size: 2rem;
+}
+
+.x-axis{
+  fill: black;
+}
+
+
